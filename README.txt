@@ -28,3 +28,6 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+TO EDIT BACKGROUND:
+- Look inside main.css and search for background.
