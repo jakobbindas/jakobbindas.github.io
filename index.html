@@ -70,7 +70,7 @@
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<img src="images/Headshot.jpg" style="width:280px; height:280px; object-fit: cover;">
+								<img src="images/Headshot.jpg" style="width:280px; height:280px; object-fit: cover; border-radius: 50%;">
 								<!-- 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
 								-->
@@ -93,16 +93,49 @@
 						-->
 						<article id="about">
 							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<!span class="image main">
-								<!img src="images/pic01.jpg" alt=""/>
-							<!/span>
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
-								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education:</b> </br> 
-								B.S. in Physics and Astronomy, University of Pittsburgh, 2023 (anticipated)
+								I have always been intrigued by the idea of space. Since I was about four years old, space has been a part of my life in various ways. From being 
+								introduced to Star Wars from my now stepfather at the age of four to having stars and other space related objects onmy ceiling that would light up 
+								at night to starting to learn more about various processes, space related topics have always caught my eye. Most importantly, it is a topic that has 
+								always held my curiosity, no matter what. I came into my freshman year at the University of Pittsburgh as a Mechanical Engineering major, hoping to get a job
+								working on rockets in hopes of advancing space travel. However, I realized that engineering was not for me after my first semester and started to do
+								some self-evaluation and ended up switching into the Physics and Astronomy program.
 							</p>
+
+							<p>
+								As I began progressing through my degree, I realized that this would be one of the best decisions I could make for myself. I found something to
+								study that I was truly passionate about and something that I could see myself enjoying enough to make a meaningful career out of. I began my research
+								career in the fall semester of 2021, working under Prof. Carles Badenes and Ph.D. Candidate Christine Daher studying red clump stars. Shortly after
+								this semester began, I was asked to join <a href="/stepup">STEPUP</a> as the new data processing lead due to my coding background. This summer, I 
+								will be working under Prof. Jamie Tayar at the University of Florida, participating in the Research Experience for Undergraduates (REU) program, 
+								funded by the National Science Foundation (NSF). As of now, I do not have much information about the topic I will be researching. I am anticipating
+								graduating from the University of Pittsburgh in spring 2023 and moving on to graduate school to pursue a Ph.D. in Physics and Astronomy. Currently,
+								I am hoping to pursue research in computational astrophysics.
+							</p>
+
+							<figure>
+								<img src="images/Dogs.jpg" style='height: 75%; width: 75%; top: 30px; right:30px;'/>
+								<figcaption>
+									Koda (black), Morgan (sister), Luka (white), Santa holding Mishka, Anakin (grey), Kaya (red), Bria (sister) and Me!
+								</figcaption>
+							</figure>
+
+							<br>
+
+							<p>
+								When I am not working on school work or either of my current research projects, I like to spend my time playing volleyball. I am currently the libero
+								(number 4) for the Pitt Men's Volleyball Club (PMVBC)'s A-Team. I am often at my computer in my apartment speedrunning video games and talking with my out of state friends in Discord. 
+								As I was making this website, I realized I was having a <i>lot</i> of fun with it, and I am going to spend a lot of time learning more about HTML and
+								CSS. I enjoy developing my coding skills in Java, but mostly Python. I also enjoy spending time back at home lounging around with my pack of five huskies and black lab,
+								pictured above (I adopted the red husky, Kaya). 
+							</p>
+
+							<figure>
+								<img src="images/PMVBC.jpg" style='height: 50%; width: 75%;'/>
+								<figcaption>
+									PMVBC Roster 2021-2022
+								</figcaption>
+							</figure>
 						</article>
 
 						<!-- Here is the "Research" card. -->
@@ -123,16 +156,38 @@
 								-->
 								<b>Red Clump Stars' Unlikely Binary Companions</b><br>
 								Advisor: Prof. Carles Badenes </br>
-								Investigating core helium burning stars to observe shorter binary companions than otherwise predicted
+								I am currently using the APOGEE Data Release 16 to investigate core properties about core helium (red clump) binary systems. 
+								In particular, I am analyzing red clump stars with a particularly high change in radial velocity, which is an indicator that 
+								these red clump stars still contain a short period binary companion. This is not something we would expect to observe since 
+								these stars should have engulfed their companion during its evolution through the red giant branch (RGB). 
 							</p>
+
+							<!-- Add RC Binary Spectrum-->
+							<figure>
+								<img src="images/Binary Spectrum.png" style="width:100%;"/>
+								<figcaption>
+									APOGEE DR16 red clump binary spectrum
+								</figcaption>
+							</figure>
+
+							<br>
+							<br>
 							
 							<p>
 								<b>Survey of Transiting Extrasolar Planets at University of Pittsburgh (STEPUP)</b><br>
 								Advisor: Prof. Michael Wood-Vasey</br>
-								Observe and collect data from stars predicted to have an exoplanet in its orbit. Analyze data by 
-								producing light curves to detect planetary transits.
+								STEPUP observes and collects data from stars predicted to have an exoplanet in its orbit. We analyze data by 
+								producing light curves to detect planetary transits. Learn more about <a href="/#stepup">STEPUP and what I do here!</a>
 							</p>
+							<!-- Add sample light curve-->
+							<figure>
+								<img src="images/HAT-P-3 Light Curve.png" style="width:100%;"/>
+								<figcaption>
+									Sample light curve produced from STEPUP data for the star HAT-P-3
+								</figcaption>
+							</figure>
 
+							<br>
 							<br>
 
 							<h3 class="major">Research Interests</h3>
@@ -148,6 +203,8 @@
 						<!-- Here is the "STEPUP" card. -->
 						<article id="stepup">
 							<h2 class="major">STEPUP</h2>
+							<img src="images/STEPUP Logo.png" style='width: 150px; height:150px; background-color: none; position: absolute; top: 30px; right: 50px;
+																	 '/>
 							<p>
 								STEPUP is the Survey of Transiting Extrasolar Planets at the University of Pittsburgh that uses the Allegheny Observatory’s Keeler 16” telescope
 								to detect extrasolar planets (exoplanets). We take observations (weather permitting) and collect data about stars that we then analyze to determine
@@ -155,12 +212,14 @@
 								pipeline, SIA (STEPUP Image Analysis), and perform photometry using an external program known as AstroImageJ. We take the output file from AIJ to
 								produce light curves for our analysis. <a href="https://sites.pitt.edu/~stepup/index.html" target="_blank">Click here</a> to learn more about STEPUP!
 							</p>
-								I serve as the current Data Processing Lead for STEPUP. Currently, I am working on a curve fitting function that takes the raw data from the AIJ output
-								and use Python to fit for the transit depth and transit time, ultimately giving us the ingress and egress times of the transit. Over the summer, I plan
-								to repair SIA, as we are currently experiencing issues with the Astrometry feature as we are using a CCD that is incompatible with the World Coordinate
-								System (WCS) Tools that we run our data through. I also plan to lead the redesign of our website. 
 							<p>
-								
+								I serve as the current Data Processing Lead for STEPUP. Currently, I am working on a curve fitting function that takes the raw data from an AIJ output
+								file and use Python to fit for the transit depth and transit time, ultimately giving us the ingress and egress times of the transit. I am fitting to 
+								the light curve function provided by <a href="https://arxiv.org/abs/astro-ph/0210099">Mandel & Agol (2002)</a>. I have been able to produce a light curve
+								from initial guesses for various parameters, the actual curve fitting for parameters, such as the ingress and egress of the transit and the transit depth,
+								are still a work in progress. <br><br>
+								Over the summer, I plan to repair SIA, as we are currently experiencing issues with the Astrometry feature as we are using a CCD that is incompatible with 
+								the World Coordinate System (WCS) Tools that we run our data through. I also plan to redesign the STEPUP website. 
 							</p>
 						</article>
 
@@ -176,6 +235,39 @@
 								here: https://fontawesome.com/icons
 							-->
 							<ul class="icons">
+
+								<!-- 	We can add a new icon by searching on the Font Awesome website
+									for the correct class name and inserting it as a new list item.
+
+									We found "envelope" here: https://fontawesome.com/icons/envelope
+								-->
+								<li>
+									<a href="mailto: jmb442@pitt.edu" class="icon fa-envelope">
+										<span class="label">Email</span>
+									</a>
+								</li>
+
+								<!-- The LinkedIn icon -->
+								<li>
+									<a href="https://www.linkedin.com/in/jakob-bindas-04343a196/" class="icon fa-linkedin" target='_blank'>
+										<span class="label">LinkedIn</span>
+									</a>
+								</li>
+
+								<!-- The GitHub icon -->
+								<li>
+									<a href="https://github.com/jakobbindas" class="icon fa-github" target='_blank'>
+										<span class="label">GitHub</span>
+									</a>
+								</li>
+
+								<!-- The Instagram icon -->
+								<li>
+									<a href="https://www.instagram.com/jake.bindas/?hl=en" class="icon fa-instagram" target='_blank'>
+										<span class="label">Instagram</span>
+									</a>
+								</li>
+
 								<!-- The Twitter icon -->
 								<li>
 									<!-- 	Note that you need to change the link to point to your page.
@@ -185,34 +277,6 @@
 										<span class="label">Twitter</span>
 									</a>
 								</li>
-								<!-- The Facebook icon -->
-								<li>
-									<a href="https://www.linkedin.com/in/jakob-bindas-04343a196/" class="icon fa-linkedin" target='_blank'>
-										<span class="label">LinkedIn</span>
-									</a>
-								</li>
-								<!-- The Instagram icon -->
-								<li>
-									<a href="https://www.instagram.com/jake.bindas/?hl=en" class="icon fa-instagram" target='_blank'>
-										<span class="label">Instagram</span>
-									</a>
-								</li>
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/jakobbindas" class="icon fa-github" target='_blank'>
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
 							</ul>
 						</article>
 					</div>
