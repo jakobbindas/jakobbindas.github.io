@@ -1549,7 +1549,7 @@ button {
 		position: relative;
 
 		/* CHANGE */
-		width: 100%;
+		width: 75%;
 		max-width: 100%;
 		background-color: rgba(27, 31, 34, 0.85);
 		border-radius: 4px;
