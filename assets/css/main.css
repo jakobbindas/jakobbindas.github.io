@@ -1159,8 +1159,7 @@ button {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-		/* We can change the background image here. */
-		background-image: url("../../images/purple mountain w planet.png");
+		background-image: url("../../images/IRTF.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1664,3 +1663,13 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+
+#dogs li {
+	display: inline;
+	float: left;
+	height: 1%;
+	width: 1%;
+	/* margin: 20px 0 20px 8%; */
+	list-style-type: none;
+}
